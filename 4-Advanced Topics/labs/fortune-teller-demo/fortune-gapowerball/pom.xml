@@ -105,6 +105,7 @@
 							<include>${project.build.finalName}.jar</include>
 						</resource>
 					</resources>
+					<useConfigFile>true</useConfigFile>
 				</configuration>
 			</plugin>
 		</plugins>
