@@ -18,5 +18,4 @@ applications:
    - discovery-service-poly
    - circuit-breaker-poly
 env:
-  # Replace with API URI of target PCF environment
-  CF_TARGET: https://api.cfapps.haas-68.pez.pivotal.io
+  CF_TARGET: https://api.run.haas-68.pez.pivotal.io
