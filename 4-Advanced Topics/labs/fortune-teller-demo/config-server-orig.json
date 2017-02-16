@@ -1,6 +1,0 @@
-{
-    "git" : { 
-	"uri": "https://github.com/spring-cloud-services-samples/fortune-teller",
-	"searchPaths": "configuration"
-    }
-}
