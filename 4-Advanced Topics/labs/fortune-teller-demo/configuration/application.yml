@@ -1,0 +1,12 @@
+fortune:
+  fallbackFortune: Today is your lucky day!
+
+eureka:
+  instance:
+    hostname: localhost
+    leaseRenewalIntervalInSeconds: 10
+    metadataMap:
+      instanceId: ${spring.application.name}:${server.port:8080}
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
