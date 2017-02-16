@@ -11,7 +11,7 @@ This demo goes through a slightly more complex ployglot scenario.   Instead of g
 
 5. 'cf services' to see if all the service instances finished provisioning
 
-6. 'cf push' <- this pushes the UI service and the backend Fortune Service
+6. 'cf push' <- this pushes the UI service and the backend Fortune Service.  Make sure CF_TARGET points to the correct Cloud Foundry API endpoint in manifest.yml
 
 7. review and run push-docker-powerball.sh
 
