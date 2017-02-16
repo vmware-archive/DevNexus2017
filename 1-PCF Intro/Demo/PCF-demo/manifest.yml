@@ -1,7 +1,0 @@
----
-inherit: ../../base-manifest.yml
-applications:
-- name: pcfdemo
-  instances: 1
-  host: pcfdemo-jax2x
-  path: ./target/pcfdemo.war
