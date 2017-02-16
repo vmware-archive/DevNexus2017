@@ -1,14 +1,18 @@
 This demo goes through a slightly more complex ployglot scenario.   Instead of going through the standard Fortune Teller Spring Cloud Services example, we will leverage a .NET implementation of the Fortune Teller Service, a Spring Boot version of the UI, and an added service for generating Georgia Powerball lottery numbers.
 
 
-1. run build-ui.sh
+1. review and run build-ui.sh
 
-2. run build-service.sh
+2. review and run build-service.sh
 
 3. target your org/space using cf cli
 
-4. run create-services.sh
+4. review and run create-services.sh
 
 5. 'cf services' to see if all the service instances finished provisioning
 
-6. run push.sh
+6. 'cf push' <- this pushes the UI service and the backend Fortune Service
+
+7. review and run push-docker-powerball.sh
+
+Note: the project includes build-docker-service.sh.  This not needed since the push will pull from a previously built docker image on Ducker Hub
