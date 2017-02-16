@@ -1,0 +1,79 @@
+# DevNexus 2107 - Cloud, Containers, Serverless Computing, Docker : Oh my!
+
+## Pre-Requisites
+•Windows or Mac OS
+
+## Java Dependencies
+* Java JDK 1.7+
+* Maven / Gradle
+* PCF CLI (https://console.run.pivotal.io/2/tools)
+* PCF account (Pivotal Web Services “Trial account” will be best)
+	Go to run.pivotal.io and click the “Sign up for free” button.
+* Your preferred git client or https://git-scm.com/downloads
+* Chrome or Firefox….(not IE)
+
+## Smoke-test
+From your command line:
+```
+git clone https://github.com/vinayu/CloudNativeArchitectureWorkshop.git
+cd CloudNativeArchitectureWorkshop
+cf push My-Spring-Music-[##] –p Sample-apps/spring-music/spring-music.war
+```
+(where you replace [##] with your initials in order to create a unique hostname.)
+###
+
+## Agenda
+.8:30a -9:00a 
+** Test and Finalize Pre-Requisites
+
+.9-9:15 
+** Introductions
+
+.9:15-10:15 
+** Presentation: CloudFoundry 101
+*** Review Application Manifests
+*** Deploy an application - staging process
+*** Describe Application Manager Console
+
+.10:15-10:45
+** Lab 1 : Push any app!
+*** Idea: cf push dockerApp –o /cloudfoundry/testapp
+
+.10:45-10:55 Break
+Everyone should be finished with Lab 1
+
+.10:55-11:35 
+** Presentation: Scaling, Services, and Connectivity
+** Lab 2 : Scale an application - memory, disk, instances
+** Lab 3 : Connect applications to services
+
+.11:35-12:00
+** Presentation: Buildpacks & Docker support
+*** Demo of Enabling JMX monitoring
+
+.12:00-12:45  Lunch
+Everyone should fill out survey for optional content
+
+.12:45-1:35
+** Lab 4 : Buildpack Lab
+** Lab 5 : Application Log Drain Lab
+** Demo of PCF Metrics
+
+.1:45-2:45
+** Presentation: SpringBoot and Spring Cloud Services
+** Demo of a Micro-Service Application using SCS
+
+.2:45-3:25
+** Presentation: Upgrading Applications with zero downtime
+** Lab 6 : Blue-Green Deployment
+
+.3:25-3:35 Break
+Everyone should be finished with Lab 6
+
+.3:35-4:35 
+** Presentation: Optional Content
+** Demo of 
+
+.4:35-5:35 
+** Presentation: Optional Content
+** Demo of 
