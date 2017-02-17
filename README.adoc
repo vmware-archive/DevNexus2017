@@ -27,7 +27,7 @@ cf push My-Spring-Music-[##] –p Sample-apps/spring-music/spring-music.war
 ** Test and Finalize Pre-Requisites
 
 .9-9:15 
-** Introductions
+** Introduction and Expectations
 
 .9:15-10:15 
 ** Presentation: CloudFoundry 101
@@ -36,7 +36,7 @@ cf push My-Spring-Music-[##] –p Sample-apps/spring-music/spring-music.war
 *** Describe Application Manager Console
 
 .10:15-10:45
-** Lab 1 : Push any app!
+** https://github.com/Pivotal-Field-Engineering/DevNexus2017/blob/master/1-CF%20Intro/Labs/1-Introlab.pdf[Lab 1 : Push any app!]
 *** Note: Pick at least 2 of the "Hello apps" and push them to PCF
 
 .10:45-10:55 Break
@@ -44,8 +44,8 @@ Everyone should be finished with Lab 1
 
 .10:55-11:35 
 ** Presentation: Scaling, Services, and Connectivity
-** Lab 2 : Scale an application - memory, disk, instances
-** Lab 3 : Connect applications to services
+** https://github.com/Pivotal-Field-Engineering/DevNexus2017/blob/master/2-Managing%20Apps/Labs/2%20-%20Logging%2C%20Scale%2C%20and%20HA%20lab-edit.pdf[Lab 2 : Scale an application - memory, disk, instances]
+** https://github.com/Pivotal-Field-Engineering/DevNexus2017/blob/master/2-Managing%20Apps/Labs/3%20-%20Services%20lab-edit.pdf[Lab 3 : Connect applications to services]
 
 .11:35-12:00
 ** Presentation: Buildpacks & Docker support
@@ -53,25 +53,27 @@ Everyone should be finished with Lab 1
 
 .12:00-12:45  Lunch
 Everyone should fill out survey for optional content
+(lunch logistics?
+)
 
-.12:45-1:35
-** Lab 4 : Buildpack Lab
-** Lab 5 : Application Log Drain Lab
+.12:45-1:30
+** https://github.com/Pivotal-Field-Engineering/DevNexus2017/blob/master/2-Managing%20Apps/Labs/4%20-%20Buildpack%20lab-edit.pdf[Lab 4 : Buildpack Lab]
+** Demo : Application Log Drain Lab
 ** Demo of PCF Metrics
 
-.1:45-2:45
+.1:30-2:45
 ** Presentation: SpringBoot and Spring Cloud Services
 ** Demo of a Micro-Service Application using SCS
 
 .2:45-3:25
 ** Presentation: Upgrading Applications with zero downtime
-** Lab 6 : Blue-Green Deployment
+** https://github.com/Pivotal-Field-Engineering/DevNexus2017/blob/master/3-Upgrading%20Apps/Labs/6%20-%20Blue-Green%20lab.pdf[Lab 6 : Blue-Green Deployment]
 
 .3:25-3:35 Break
 Everyone should be finished with Lab 6
 
 .3:35-4:35 
-** Presentation: Optional Content
+** Presentation: 
 ** Demo of 
 
 .4:35-5:35 
