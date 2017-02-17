@@ -37,7 +37,7 @@ cf push My-Spring-Music-[##] –p Sample-apps/spring-music/spring-music.war
 
 .10:15-10:45
 ** Lab 1 : Push any app!
-*** Idea: cf push dockerApp –o /cloudfoundry/testapp
+*** Note: Pick at least 2 of the "Hello apps" and push them to PCF
 
 .10:45-10:55 Break
 Everyone should be finished with Lab 1

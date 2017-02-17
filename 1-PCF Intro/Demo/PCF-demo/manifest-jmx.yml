@@ -1,9 +1,0 @@
----
-inherit: ../../base-manifest.yml
-applications:
-- name: pcfdemo-jmx
-  instances: 1
-  host: pcfdemo-jax-jmx2
-  path: ./target/pcfdemo.war
-  env:
-   JBP_CONFIG_JMX: '{enabled: true}'

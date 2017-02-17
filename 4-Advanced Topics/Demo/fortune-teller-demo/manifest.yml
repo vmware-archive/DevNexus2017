@@ -1,0 +1,21 @@
+﻿---
+applications:
+- name: fortuneService-dotnet
+  memory: 512M
+  disk_quota: 2048M
+  path: Fortune-Teller-Service/publish
+  buildpack: dotnet_core_buildpack
+  command: ./Fortune-Teller-Service --server.urls "http://*:$PORT"
+  env:
+    ASPNETCORE_ENVIRONMENT: development
+  services:
+   - discovery-service-poly
+- name: fortune-ui
+  host: fortunes-ui-${random-word}
+  path: fortune-teller-ui/target/fortune-teller-ui-0.0.1-SNAPSHOT.jar
+  services:
+   - config-server-poly
+   - discovery-service-poly
+   - circuit-breaker-poly
+env:
+  CF_TARGET: https://api.run.haas-68.pez.pivotal.io
