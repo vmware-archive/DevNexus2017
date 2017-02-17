@@ -1,0 +1,13 @@
+---
+memory: 384M
+instances: 1
+applications:
+- name: fortune-ui
+  host: fortunes-ui-${random-word}
+  path: target/fortune-teller-ui-0.0.1-SNAPSHOT.jar
+  services:
+  - config
+  - registry
+  - circuit-breaker
+env:
+  CF_TARGET: https://api.pcf13.cloud.fe.pivotal.io
