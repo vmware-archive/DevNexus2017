@@ -1,6 +1,6 @@
 {
-    "git" : {
-	"searchPaths": "4-Advanced Topics/labs/fortune-teller-demo/configuration",
-	"uri": "https://github.com/Pivotal-Field-Engineering/DevNexus2017.git" 
+    "git" : { 
+        "uri": "https://github.com/Pivotal-Field-Engineering/DevNexus2017",
+	"searchPaths": "sample-apps/configuration"
     }
 }
