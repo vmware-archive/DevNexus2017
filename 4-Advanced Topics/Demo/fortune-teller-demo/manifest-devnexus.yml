@@ -19,6 +19,6 @@ applications:
    - discovery-service-poly
    - circuit-breaker-poly
 env:
-  CF_TARGET: https://api.run.haas-68.pez.pivotal.io
+  CF_TARGET: https://api.run.haas-73.pez.pivotal.io
   MANAGEMENT_CLOUDFOUNDRY_SKIP-SSL-VALIDATION: true
   SECURITY_BASIC_ENABLED: false

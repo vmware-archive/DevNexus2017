@@ -7,7 +7,7 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 @RefreshScope
 public class FortuneProperties {
 
-	private String fallbackFortune = "Your future is unclear.";
+	private String fallbackFortune = "Your future is here at DevNexus.";
 
 	public String getFallbackFortune() {
 		return fallbackFortune;
