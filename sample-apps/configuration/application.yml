@@ -1,0 +1,32 @@
+fortune:
+  fallbackFortune: Great opportunies exist at DevNexus 2017!
+
+server:
+  port: 8081
+
+eureka:
+  client:
+    registryFetchIntervalSeconds: 5
+
+ribbon:
+  IsSecure: false
+
+fortunes:
+  ribbon:
+    ServerListRefreshInterval: 5000
+
+security:
+  basic:
+    enabled: false
+
+management:
+  security:
+    enabled: false
+
+spring:
+  profiles: pact
+
+hystrix:
+  command:
+    randomFortune:
+      execution.isolation.thread.timeoutInMilliseconds: 2000
