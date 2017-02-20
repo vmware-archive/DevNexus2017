@@ -1,6 +1,5 @@
 {
-    "git" : { 
-        "uri": "https://github.com/Pivotal-Field-Engineering/DevNexus2017",
-	"searchPaths": "sample-apps/configuration"
+    "git": { 
+        "uri": "https://github.com/mwright-pivotal/devnexus-config"
     }
 }
