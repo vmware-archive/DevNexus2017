@@ -1,4 +1,4 @@
-This demo goes through a slightly more complex ployglot scenario.   Instead of going through the standard Fortune Teller Spring Cloud Services example, we will leverage a .NET implementation of the Fortune Teller Service, a Spring Boot version of the UI, and an added service for generating Georgia Powerball lottery numbers deployed from a Docker image.
+This demo goes through a slightly more complex ployglot scenario.   Instead of using the well known Fortune Teller Spring Cloud Services example (https://github.com/spring-cloud-samples/fortune-teller), we will leverage a .NET implementation of the Fortune Teller Service, a Spring Boot version of the UI, and an added service for generating Georgia Powerball lottery numbers deployed from a Docker image.
 
 
 1. review and run build-ui.sh
