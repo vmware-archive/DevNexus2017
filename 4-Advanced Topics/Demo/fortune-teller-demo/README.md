@@ -16,3 +16,5 @@ This demo goes through a slightly more complex ployglot scenario.   Instead of g
 7. review and run push-docker-powerball.sh
 
 Note: the project includes build-docker-service.sh.  This not needed since the push will pull from a previously built docker image on Ducker Hub
+
+Logical View: ![Alt](/Slide14.jpg "arch diagram")

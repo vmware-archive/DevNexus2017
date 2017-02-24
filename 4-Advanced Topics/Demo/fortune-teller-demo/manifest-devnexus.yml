@@ -14,6 +14,7 @@ applications:
   memory: 768M
   host: fortunes-ui-${random-word}
   path: fortune-teller-ui/target/fortune-teller-ui-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack_offline
   services:
    - config-server-poly
    - discovery-service-poly
